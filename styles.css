@@ -1,3 +1,18 @@
 *{
     font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color:#F7EBEC;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container{
+    background-color:#AC9FBB;
+    padding: 20px;
+    display: flex;
+    
 }

@@ -14,11 +14,23 @@ const setWeatherData = data => {
     const  weatherData = {
         location: data.name,
         description: data.weather[0].main,
-        humidity : data.humidity,
-        
-
+        humidity : data.main.humidity,
+        pressure: data.main.pressure,
+        temperature: data.main.temp,
+        max_temperature: data.main.temp_max,
+        min_temperature: data.main.temp_min,
+        date:getDate(),
     }
+
+     Object.keys(weatherData).forEach( key => {
+     document.getElementById(key).textContent = weatherData[key]});
+
 } 
+
+const getDate = () =>{
+    let date = new Date ();
+    return `${date.getDate()}-${('0' + (date.getMonth() + 1 )).slice(- 2)}-${date.getFullYear()}`
+}
 
 const onLoad =() => {
         navigator.geolocation.getCurrentPosition(fetchData);
