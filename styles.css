@@ -3,7 +3,7 @@
 
 }
 body{
-    background-color:#F7EBEC;
+    background-color:#96BBBB;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -11,8 +11,30 @@ body{
 }
 
 #container{
-    background-color:#AC9FBB;
-    padding: 20px;
+    background-color:#618985;
     display: flex;
+    padding: 5rem;
+    justify-content: space-between;
+    border-radius: 2rem;
+    box-shadow: 6px 9px rgba(0, 0, 0, 0.5);
+    border:1px solid #000
     
+
+    
+}
+
+#container > .block {
+    padding: 30px;
+    margin-left: 10px;
+    
+}
+
+.block{
+    color: #fff;
+    font-size: 26px;
+}
+
+.block > .information-container{
+    display: flex;
+    justify-content: space-between;
 }
