@@ -1,4 +1,4 @@
-# APP WEATHER || APLICACION DEL CLIMA
+# APP WEATHER JS || APLICACION DEL CLIMA JS
 
 ![CAPTURE](/App%20weather.png "APP SCREENSHOT")
 
@@ -8,7 +8,7 @@
 
 ---
 
-[APP WEATHER](https://jairmontenegro.github.io/Calculator-js/ "click to enter")
+[APP WEATHER JS ](https://jairmontenegro.github.io/Calculator-js/ "click to enter")
 
 This is a project i used to practice, Object keys, fetch, promises(then => resolve, reject).
 
@@ -33,6 +33,8 @@ In the near future, I'll plan to refactor with REACT JS
 ---
 
 # ESPAÑOL :es:
+
+[APP WEATHER JS](https://jairmontenegro.github.io/Calculator-js/ "click to enter")
 
 Este es un proyecto que usé para practicar, Object keys, fetch, promise( then => resolve ,reject).
 
